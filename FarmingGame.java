@@ -41,7 +41,7 @@ public class FarmingGame {
         System.out.println("3. Harvest crops");
         System.out.println("4. View crop status");
         System.out.println("5. Exit game");
-        System.out.println("Enter choice: ");
+        System.out.print("Enter choice: ");
     }
 
     static void handleChoice(String choice) {
