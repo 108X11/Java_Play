@@ -29,9 +29,9 @@ public class FarmingGame {
     }
 
     static void initializeCrops() {
-        crops.put("1", new Crop("Wheat", 20, 50, 3));
-        crops.put("2", new Crop("Corn", 30, 80, 5));
-        crops.put("3", new Crop("Carrot", 15, 40, 2));
+        crops.put("1", new Crop("Wheat", 20, 50, 1));
+        crops.put("2", new Crop("Corn", 30, 80, 2));
+        crops.put("3", new Crop("Carrot", 15, 40, 3));
     }
 
     static void displayOptions() {
